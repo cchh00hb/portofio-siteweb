@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Chahinez Fahmi</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+          > CF</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projets</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Salut, Je suis <br><span class="about__name">Chahinez Fahmi.</span></h1>
+        <h2 class="about__role">Une étudiante en réseaux et télécommunications</h2>
+        <p class="about__desc">
+           Je découvre chaque jour de nouvelles façons de créer,
+           coder et résoudre des problèmes. J’apprends, je progresse et je partage.</p>
+           <p><br>Bienvenue dans mon univers!</p>
+
+        </p>
+
+          <div class="about__contact center">
+          <a href="assets/CV FAHMI Chahinez (2).pdf" target="_blank">
+             <span class="btn btn--outline">CV</span>
+          </a>
+
+
+          <a
+            href="https://www.linkedin.com/in/chahinez-fahmi-b66b9934a/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+
+      <section id="about-me" class="section">
+  <h2 class="section__title">Qui suis-je ?</h2>
+
+  <p class="about__desc" style="text-align: center; max-width: 700px; margin: 0 auto;">
+    Etudiante en Bachelor de réseaux et télécommunications, je suis passionné par les nouvelles technologies. C'est grace a mon grand frère que j’ai découvert l’informatique,
+                depuis petite j'ai été attirée par ce monde riche en possibilités. 
+                C’est tout naturellement que je me suis tourné vers cette formation.
+  </p>
+
+
+  <p class="about__desc" style="text-align: center; max-width: 700px; margin: 2em auto;">
+    Aujourd’hui, je m’investis pleinement dans mes projets et mes études.
+    Au fil de ma formation je me suis particulièrement intéressée au domaine du cloud et à la cybersécurité.
+  </p>
+</section>
+
+<section id="ambitions" class="section ambitions">
+  <h2 class="section__title ambitions__title">Mes ambitions</h2>
+  <div class="ambitions__content">
+    <p class="ambitions__text">
+     <p class="about__desc" style="text-align: center; max-width: 700px; margin: 0 auto;"></p>
+      Mon objectif est de devenir
+     une professionnelle capable de concevoir, sécuriser et maintenir des infrastructures.
+    </p>
+    <p class="about__desc" style="text-align: center; max-width: 700px; margin: 1em auto;"></p>
+     À court terme, je souhaite <strong>renforcer</strong> mes compétences techniques,
+     À plus long terme, je souhaite contribuer activement à des projets, partager mes
+      connaissances à travers des articles, et continuer à apprendre chaque jour.
+    </p>
+    <p class="about__desc" style="text-align: center; max-width: 700px; margin: 2em auto 0;">
+  Les femmes sont encore sous-représentées dans le secteur des technologies, mais les choses changent. 
+  Je suis <strong>fière</strong> de faire partie de cette nouvelle génération qui casse les stéréotypes et fait entendre sa voix.
+</p>
+  
+  </div>
+</section>
+
+
+
+      <!-- Projects -->
+      <section id="projets" class="section projects">
+        <h2 class="section__title">Voici quelques projets auxquels j'ai pu collaborer</h2>
+         <p class="section__subtitle" style="text-align: center; max-width: 800px; margin: 1em auto;">
+    Ces projets m'ont permis d'<strong>acquérir des compétences</strong> que nous validons tout au long de l'année.
+  </p>
+<div class="projects__grid">
+  <div class="project">
+    <div class="project__content" style="display: flex; flex-wrap: wrap; gap: 2em; justify-content: center;">
+      
+      <!-- Partie gauche : vidéo + stack -->
+      <div class="project__media" style="flex: 1 1 300px; max-width: 500px;">
+<video autoplay muted loop playsinline style="width:100%; max-width: 500px; border-radius: 0.5em;">
+  <source src="assets/Saerobot.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos.
+</video>
+
+        <ul class="project__stack">
+          <li class="project__stack-item">C ++</li>
+          <li class="project__stack-item">Arduino</li>
+          
+        </ul>
+      </div>
+
+      <!-- Partie droite : titre + description -->
+      <div class="project__info" style="flex: 1 1 300px;">
+        <h3>Robot suiveur de ligne</h3>
+        <p class="project__description">
+          Conception d’un robot capable de suivre automatiquement une ligne noire sur fond blanc
+           à l’aide de capteurs infrarouges. Ce projet m’a permis de travailler sur l’électronique,
+            la programmation embarquée (Arduino/C++) et la logique algorithmique.
+        </p>
+        <p style="margin-top: 1em;">
+          J’espère pouvoir
+          collaborer à l’avenir sur des projets plus ambitieux, à plus grande échelle.
+        </p>
+              <p style="margin-top: 1em; text-align: left;">
+        <strong>Apprentissages couverts :</strong>
+        <br>- Utiliser un système informatique et ses outils
+        <br>- Traduire un algorithme, dans un langage et pour un environnement donné
+        <br>- S’intégrer dans un environnement propice au développement et au travail collaboratif
+        <br>- Utiliser un système informatique et ses outils
+       </p>
+         
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="project">
+  <div class="project__content" style="display: flex; flex-wrap: wrap; gap: 2em; justify-content: center;">
+
+    <!-- Vidéo + stack -->
+    <div class="project__media" style="flex: 1 1 300px; max-width: 500px;">
+      <img src="assets/nmap.jpg" alt="Aperçu du projet" style="width: 100%; border-radius: 0.5em;" />
+      <img src="assets/carte-1.png" alt="Aperçu du projet" style="width: 100%; border-radius: 0.5em;" />
+      <img src="assets/ecran.png" alt="Aperçu du projet" style="width: 100%; border-radius: 0.5em;" />
+
+      <ul class="project__stack">
+        <li class="project__stack-item">Linux</li>
+        <li class="project__stack-item">Nmap</li>
+        <li class="project__stack-item">Windows</li>
+        <li class="project__stack-item">Wireshark</li>
+      </ul>
+
+    </div>
+    <!-- Titre + description -->
+    <div class="project__info" style="flex: 1 1 300px;">
+      <h3>Admininstrer un réseau informatique à petite échelle</h3>
+      <p class="project__description">
+        Nous avons configuré un Raspberry Pi 4 pour mettre en place des services réseau :
+         serveur web Apache, partages de fichiers via NFS et Samba, et un accès sécurisé.
+          Nous avons réalisé des diagnostics réseau avec ping, traceroute, Nmap et Wireshark,
+           et mis en place une supervision via une page HTML.
+      </p>
+      <p class="project__description">
+        Enfin, nous avons analysé l’infrastructure du réseau, identifié les équipements connectés,
+         et évalué les aspects liés à la sécurité des services et des ports ouverts.
+      </p>
+       <p class="project__description">
+        Ce projet m’a permis d’apprendre à utiliser des outils professionnels comme Wireshark, Nmap, SSH et Apache pour configurer, sécuriser et analyser un réseau informatique réel.
+        Ce qui fait partie de la competence "administrer", clé dans ma formation.
+       </p>
+
+
+      <p style="margin-top: 1em; text-align: left;">
+        <strong>Apprentissages couverts :</strong>
+        <br>- Identifier les dysfonctionnements du réseau local et savoir les signaler
+        <br>- Installer un poste client, expliquer la procédure mise en place
+        <br>- Configurer les fonctions de base du réseau local
+        <br>- Maîtriser les rôles et les principes fondamentaux des systèmes d’exploitation afin d’interagir avec ceux-ci pour
+          la configuration et l’administration des réseaux et services fournis
+      </p>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="project">
+  <div class="project__content" style="display: flex; flex-wrap: wrap; gap: 2em; justify-content: center;">
+
+    <!-- Vidéo + stack -->
+    <div class="project__media" style="flex: 1 1 300px; max-width: 500px;">
+      <img src="assets/tableau.png" alt="Aperçu du projet" style="width: 100%; border-radius: 0.5em;" />
+      <img src="assets/code.png" alt="Aperçu du projet" style="width: 100%; border-radius: 0.5em;" />
+
+
+      <ul class="project__stack">
+        <li class="project__stack-item">Linux</li>
+        <li class="project__stack-item">Nmap</li>
+        <li class="project__stack-item">Windows</li>
+        <li class="project__stack-item">Wireshark</li>
+      </ul>
+
+    </div>
+    <!-- Titre + description -->
+    <div class="project__info" style="flex: 1 1 300px;">
+      <h3>Admininstrer un réseau informatique à petite échelle</h3>
+      <p class="project__description">
+       Ce projet a consisté à développer, en groupe de trois étudiants, une application web permettant d’accéder, d’alimenter et
+        de manipuler un jeu de données via une interface simple et fonctionnelle.
+      <p class="project__description">
+        Nous avons mis en œuvre une base de données connectée à un site web développé en HTML/CSS/JS et Python/PHP,
+         hébergé sur une machine virtuelle Linux que nous avons installée et configurée.
+      </p>
+       <p class="project__description">
+        Ce projet a mobilisé des compétences en programmation, gestion de données, déploiement
+         de services web, collaboration avec GitHub et rédaction technique
+       </p>
+
+
+      <p style="margin-top: 1em; text-align: left;">
+        <strong>Apprentissages couverts :</strong>
+        <br>- Utiliser un système informatique et ses outils
+        <br>- Connaître l’architecture et les technologies d’un site Web
+        <br>- S’intégrer dans un environnement propice au développement et au travail collaboratif
+        <br>- Traduire un algorithme, dans un langage et pour un environnement donné
+      </p>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Outils que j'utilise</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Linux</li>
+          <li class="skills__list-item btn btn--plain">Windows</li>
+
+        </ul>
+      </section>
+
+      <!-- Contact -->
+<section class="section contact" id="contact">
+  <h2 class="section__title contact__title">Contact</h2>
+
+  <div class="contact__container">
+    <!-- Colonne gauche : le texte -->
+    <div class="contact__info">
+      <p>
+      Si vous avez des questions ou des préoccupations, n'hésitez pas à me contacte !
+      Je suis ouvert à toute opportunité de travail correspondant à mes compétences.
+      </p>
+    </div>
+
+    <!-- Colonne droite : le formulaire -->
+    <form action="mailto:chahinez.fahmi@example.com" method="POST" enctype="text/plain" class="contact__form">
+      <div class="input-group">
+        <i class="fas fa-user icon"></i>
+        <input type="text" id="name" name="Nom" placeholder="Votre nom" required />
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-envelope icon"></i>
+        <input type="email" id="email" name="Email" placeholder="Votre email" required />
+      </div>
+
+      <div class="input-group">
+        <i class="fas fa-comment icon"></i>
+        <textarea id="message" name="Message" rows="5" placeholder="Votre message" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn--outline">Envoyer</button>
+    </form>
+  </div>
+</section>
+
+
+
+
+    </main>
+        By Chahinez FAHMI
+      </a>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

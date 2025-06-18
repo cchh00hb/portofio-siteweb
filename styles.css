@@ -530,3 +530,11 @@ input:focus, textarea:focus {
   width: 100%;
   text-align: left;
 }
+
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #a989e4; /* ou #fff pour mode sombre */
+  margin: 2rem 0;
+}
